@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+#map{
+    height: 100%;
+    width:100%;
+}
+
+.menu{
+    display:none;
+}
+.main-header {
+    background-color: rgba(0,0, 0, 0.8);
+    text-align:center;
+    color:#FFF;
+    position:relative;
+    z-index: 99999;
+    width:100%;
+
+}
+.main-header h1{
+    margin:0;
+    padding:0.7em;
+
+}
+.burger{
+    position:absolute;
+    top:50px;
+    left:50px;
+    z-index:99999;
+}
+.marker{
+    height: 50px;
+    width:50px;
+    background:url('../img/icon.png');
+}
+.container-map{
+    height:100vh;
+    width:100%;
+}
